@@ -10,7 +10,7 @@ function displayBooks(books) {
 
   books.forEach((book) => {
     const card = `
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 mb-3">
       <div class="card h-100 shadow">
       <img src="${book.img}" class="h-75 card-img-top" alt="${book.title}">
       <div class="card-body">
